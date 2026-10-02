@@ -1,0 +1,16 @@
+info:
+  name: "Subdomains"
+  identifier: "subdomains"
+  version: "1.0.0"
+  description: "Crea subdominios personalizados para tus servidores."
+  author: "Aledevv"
+  target: "beta-2026-08"
+
+client:
+  navigation:
+    - name: "Subdomain"
+      icon: "fa-globe"
+      route: "/subdomain"
+  views:
+    - target: "server.index"
+      path: "resources/scripts/components/server/subdomains/SubdomainsContainer.tsx"
